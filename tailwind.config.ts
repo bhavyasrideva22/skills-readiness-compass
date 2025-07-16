@@ -61,7 +61,22 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				assessment: {
+					bg: 'hsl(var(--assessment-bg))',
+					card: 'hsl(var(--assessment-card))'
+				},
+				progress: {
+					bg: 'hsl(var(--progress-bg))',
+					fill: 'hsl(var(--progress-fill))'
+				},
+				step: {
+					active: 'hsl(var(--step-active))',
+					inactive: 'hsl(var(--step-inactive))'
+				},
+				success: 'hsl(var(--success))',
+				warning: 'hsl(var(--warning))',
+				info: 'hsl(var(--info))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
